@@ -1,0 +1,477 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="theChow.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="shortcut icon" href="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/fried rice.webp" type="image/x-icon">
+    <title> THE CHOW</title>
+</head>
+<body>
+    <!-- login interface starts here -->
+    <form>
+    <div class="overall-div  block">
+        <div class="login">
+            <div class="user-login">
+                <h1>THE  <span>CHOW</span></h1>
+            </div>
+            <div class="web-browser-icon">
+                <i></i>
+            </div>
+        </div>
+
+        <div class="agent-login">
+            <h2>User login</h2>
+            <h3>Please Provide your Login details below</h3>
+            <div class="credentials">
+                    <p id="EmailError"></p>
+                    <label for="email">Email:<input type="email" id="email" placeholder="e.g johnDoe@gmail.com" required ></label>
+                    <p id="PassError"></p>
+                    <label for="password">Password:<input type="password" id="password"  placeholder="please enter your password" required ></label>
+                    <button class="showPass">show</button>
+                </div>
+                <button class="signInBtn">Sign in</button>
+                <p id="sign">Don't have an account yet? <a href="" id="signs">Sign up</a></p>
+            </div>
+        </div> 
+    </form>
+
+    <!-- user login page starts here  -->
+
+    <div class="kaycee-div   mobile ">
+        <div class="navbar-for-laptop ">
+            <div class="brand-name    names">
+            <h2>THE  <span>CHOW</span></h2>
+        </div>
+        <div class="home-side">
+            <a href="">HOME</a>
+            <a href="">SERVICES</a>
+        </div>
+        <div class="user-account">
+            <p id="user-name"><i class="fa-solid fa-user" style="color: #000000;"></i>  </p>
+            <p> <i class="fa-solid fa-cart-shopping  starlet" style="color: orangered;"></i> Add to cart</p>
+            <div class="count-section  ">
+                <h5 id="cart-count"></h5>
+            </div>  
+        </div>
+        <div class="modes">
+            <div class="md">
+                <p id="switch">Switch modes</p>
+            </div>
+            <div class="bb">
+                <button class="background-mode"><button class="moveBtn"></button></button>
+            </div>
+        </div>
+    </div>
+
+    <!-- big banner section -->  
+    <div class="hero-banner">
+        <div class="hero-banner-div2">
+            <div class="text-1">
+                <p>Enjoy</p>
+            </div>
+            <div class="text-2">
+                <p> <span>Quality meals</span>  with us Daily</p>
+            </div>
+            <div class="text-3">
+                <p>At The Chow, we offer you quality services and quality meals to give you the best of nutrients that will keep your body going!  </p>
+            </div>
+        </div>
+        <div class="hero-banner-div1">
+            <div class="big-img">
+                <img src="https://media.istockphoto.com/id/688602226/photo/jollof-rice-with-chicken-and-plantains.webp?b=1&s=170667a&w=0&k=20&c=djSXR80sctWCRi-khQ1HCZHjyatzzlLmDLszpdmuA7g=" alt="" width="600px">
+                <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/afang soup.webp" alt="" width="500px">
+                <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/chicken.webp" alt="" width="500px">
+                <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/pizza.webp" alt="" width="500px">
+                <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/jollof rice.webp" alt="" width="500px">   
+            </div>  
+        </div>
+    </div>
+    <h1 class="what" ><span>What are you </span> having Today?</h1>
+    <section  id="food-section" >
+        <div class="food-div   none">
+            <div class="food-menu">
+                <div class="image-div">
+                    <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/jollof rice.webp" alt="" class="product-img" width="200px" style="border-radius: 10%;" >
+                </div>
+                <div class="name-div">                                                    
+                    <p class="product-name">Jollof Rice</p>
+                </div>
+                <div class="price-div">
+                    <p class="product-price" >$9.00</p>
+                </div>
+                <div class="combine">
+                    <div class="starss">
+                        <i class="fa fa-star" aria-hidden="true" size="fa-sm" style="color:orangered; font-size: 0.7em;" ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; " ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; "></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i> 
+                    </div>
+                    <div class="cart-section">
+                        <button id="jollof">order</button>
+                    </div>
+                    <div class="see-more">
+                        <button>see more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="food-menu">
+                <div class="image-div">
+                    <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/afang soup.webp" alt="" class="product-img" width="200px" style="border-radius: 10%;"  >
+                </div>
+                <div class="name-div">                                                    
+                    <p class="product-name">Afang Soup</p>
+                </div>
+                <div class="price-div">
+                    <p class="product-price" >$7.00</p>
+                </div>
+                <div class="combine">
+                    <div class="starss">
+                        <i class="fa fa-star" aria-hidden="true" size="fa-sm" style="color:orangered; font-size: 0.7em;" ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; " ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; "></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i> 
+                    </div>
+                    <div class="cart-section">
+                        <button id="afang">order</button>
+                    </div>
+                    <div class="see-more">
+                        <button>see more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="food-menu">
+                <div class="image-div">
+                    <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/chicken.webp" alt="" class="product-img" width="200px" style="border-radius: 10%;"  >
+                </div>
+                <div class="name-div">                                                    
+                    <p class="product-name">Fried Chicken</p>
+                </div>
+                <div class="price-div">
+                    <p class="product-price" >$10.00</p>
+                </div>
+                <div class="combine">
+                    <div class="starss">
+                        <i class="fa fa-star" aria-hidden="true" size="fa-sm" style="color:orangered; font-size: 0.7em;" ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; " ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; "></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i> 
+                    </div>
+                    <div class="cart-section">
+                        <button id="chicken">order</button>
+                    </div>
+                    <div class="see-more">
+                        <button>see more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="food-menu">
+                <div class="image-div">
+                    <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/fried rice.webp" alt="" class="product-img"  width="200px" style="border-radius: 10%;" >
+                </div>
+                <div class="name-div">                                                    
+                    <p class="product-name">Fried Rice</p>
+                </div>
+                <div class="price-div">
+                    <p class="product-price" >$9.00</p>
+                </div>
+                <div class="combine">
+                    <div class="starss">
+                        <i class="fa fa-star" aria-hidden="true" size="fa-sm" style="color:orangered; font-size: 0.7em;" ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; " ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; "></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i> 
+                    </div>
+                    <div class="cart-section">
+                        <button id="fried-rice">order</button>
+                    </div>
+                    <div class="see-more">
+                        <button>see more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="food-menu">
+                <div class="image-div">
+                    <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/egusi soup.webp" alt="" class="product-img"  width="200px" style="border-radius: 10%;" >
+                </div>
+                <div class="name-div">                                                    
+                    <p class="product-name">Egusi soup</p>
+                </div>
+                <div class="price-div">
+                    <p class="product-price" >$8.00</p>
+                </div>
+                <div class="combine">
+                    <div class="starss">
+                        <i class="fa fa-star" aria-hidden="true" size="fa-sm" style="color:orangered; font-size: 0.7em;" ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; " ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; "></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i> 
+                    </div>
+                    <div class="cart-section">
+                        <button id="egusi">order</button>
+                    </div>
+                    <div class="see-more">
+                        <button>see more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="food-menu">
+                <div class="image-div">
+                    <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/hamburger.webp" alt="" class="product-img"  width="180px" style="border-radius: 10%;" >
+                </div>
+                <div class="name-div">                                                    
+                    <p class="product-name">Hamburger</p>
+                </div>
+                <div class="price-div">
+                    <p class="product-price" >$5.00</p>
+                </div>
+                <div class="combine">
+                    <div class="starss">
+                        <i class="fa fa-star" aria-hidden="true" size="fa-sm" style="color:orangered; font-size: 0.7em;" ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; " ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; "></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i> 
+                    </div>
+                    <div class="cart-section">
+                        <button id="Hamburger">order</button>
+                    </div>
+                    <div class="see-more">
+                        <button>see more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="food-menu">
+                <div class="image-div">
+                    <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/hot dogs.webp" alt="" class="product-img" width="200px" style="border-radius: 10%;"  >
+                </div>
+                <div class="name-div">                                                    
+                    <p class="product-name">Hot Dogs</p>
+                </div>
+                <div class="price-div">
+                    <p class="product-price" >$5.00</p>
+                </div>
+                <div class="combine">
+                    <div class="starss">
+                        <i class="fa fa-star" aria-hidden="true" size="fa-sm" style="color:orangered; font-size: 0.7em;" ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; " ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; "></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i> 
+                    </div>
+                    <div class="cart-section">
+                        <button id="hot-dogs">order</button>
+                    </div>
+                    <div class="see-more">
+                        <button>see more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="food-menu">
+                <div class="image-div">
+                    <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/pizza.webp" alt="" class="product-img"  width="200px" style="border-radius: 10%;" >
+                </div>
+                <div class="name-div">                                                    
+                    <p class="product-name">Mini Pizza </p>
+                </div>
+                <div class="price-div">
+                    <p class="product-price" >$12.00</p>
+                </div>
+                <div class="combine">
+                    <div class="starss">
+                        <i class="fa fa-star" aria-hidden="true" size="fa-sm" style="color:orangered; font-size: 0.7em;" ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; " ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; "></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i> 
+                    </div>
+                    <div class="cart-section">
+                        <button id="Pizza">order</button>
+                    </div>
+                    <div class="see-more">
+                        <button>see more</button>
+                    </div>
+                </div>
+            </div>
+            <div class="food-menu">
+                <div class="image-div">
+                    <img src="/01_HTML/01_HTML FUNDAMENTALS/02_ HTML_INTERMEDIATE_HTML1/media/coconut rice.webp" alt="" class="product-img" width="200px" style="border-radius: 10%;"  >
+                </div>
+                <div class="name-div">                                                    
+                    <p class="product-name">Coconut Rice</p>
+                </div>
+                <div class="price-div">
+                    <p class="product-price" >$7.00</p>
+                </div>
+                <div class="combine">
+                    <div class="starss">
+                        <i class="fa fa-star" aria-hidden="true" size="fa-sm" style="color:orangered; font-size: 0.7em;" ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; " ></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em; "></i><i class="fa fa-star" aria-hidden="true" style="color:orangered; font-size: 0.7em;"></i> 
+                    </div>
+                    <div class="cart-section">
+                        <button id="coconut">order</button>
+                    </div>
+                    <div class="see-more">
+                        <button>see more</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>        
+
+    <section  class="cart-sections   blocks" >
+        <div class="add-to-cart">
+            <div id="foods"> </div>
+                <div class="add-to-cartbar">
+                    <div class="head">My cart</div>
+                    <div class="emptycart"></div>
+                    <div class="cartItem   none">
+                            <div class="food-img">
+                                <img src="" alt="" class="foods-img" >
+                            </div>
+                            <div class="title">
+                                <p class="prod-title"></p>
+                            </div>
+                            <div class="prices">
+                                <p class="prod-price"></p>
+                            </div>
+                            <div class="del">
+                                <button class="deleteOrder     comot"><i class="fa-solid fa-trash" style="color:orangered"></i></button>
+                            </div>
+                    </div>
+                    <!-- cart row 1 ends here -->
+                    <div class="cartItem2   none">
+                            <div class="food-img1">
+                                <img src="" alt="" class="foods-img2" >
+                            </div>
+                            <div class="title">
+                                <p class="prod-title2"></p>
+                            </div>
+                            <div class="prices">
+                                <p class="prod-price2"></p>
+                            </div>
+                            <div class="del">
+                                <button class="deleteOrder2     comot"><i class="fa-solid fa-trash" style="color:orangered"></i></button>
+                            </div>
+                    </div>
+                    <!-- cart row 2 ends here -->
+                    <div class="cartItem3  none">
+                            <div class="food-img3">
+                                <img src="" alt="" class="foods-img3" >
+                            </div>
+                            <div class="title">
+                                <p class="prod-title3"></p>
+                            </div>
+                            <div class="prices">
+                                <p class="prod-price3"></p>
+                            </div>
+                            <div class="del">
+                                <button class="deleteOrder3     comot"><i class="fa-solid fa-trash" style="color:orangered"></i></button>
+                            </div>
+                    </div>
+                    <!-- cart row 3 ends here -->
+                    <div class="cartItem4   none">
+                            <div class="food-img4">
+                                <img src="" alt="" class="foods-img4" >
+                            </div>
+                            <div class="title">
+                                <p class="prod-title4"></p>
+                            </div>
+                            <div class="prices">
+                                <p class="prod-price4"></p>
+                            </div>
+                            <div class="del">
+                                <button class="deleteOrder4     comot"><i class="fa-solid fa-trash" style="color:orangered"></i></button>
+                            </div>
+                    </div>
+                    <!-- cart row 4 ends here -->
+                    <div class="cartItem5   none">
+                            <div class="food-img5">
+                                <img src="" alt="" class="foods-img5" >
+                            </div>
+                            <div class="title">
+                                <p class="prod-title5"></p>
+                            </div>
+                            <div class="prices">
+                                <p class="prod-price5"></p>
+                            </div>
+                            <div class="del">
+                                <button class="deleteOrder5     comot"><i class="fa-solid fa-trash" style="color:orangered"></i></button>
+                            </div>
+                    </div>
+                    <!-- cart row 5 ends here -->
+                    <div class="cartItem6  none">
+                            <div class="food-img6">
+                                <img src="" alt="" class="foods-img6" >
+                            </div>
+                            <div class="title">
+                                <p class="prod-title6"></p>
+                            </div>
+                            <div class="prices">
+                                <p class="prod-price6"></p>
+                            </div>
+                            <div class="del">
+                                <button class="deleteOrder6     comot"><i class="fa-solid fa-trash" style="color:orangered"></i></button>
+                            </div>
+                    </div>
+                    <!-- cart row 6 ends here -->
+                    <div class="cartItem7   none">
+                            <div class="food-img7">
+                                <img src="" alt="" class="foods-img7" >
+                            </div>
+                            <div class="title">
+                                <p class="prod-title7"></p>
+                            </div>
+                            <div class="prices">
+                                <p class="prod-price7"></p>
+                            </div>
+                            <div class="del">
+                                <button class="deleteOrder7     comot"><i class="fa-solid fa-trash" style="color:orangered"></i></button>
+                            </div>
+                    </div>
+                    <!-- cart row 7 ends here -->
+                    <div class="cartItem8   none">
+                            <div class="food-img8">
+                                <img src="" alt="" class="foods-img8" >
+                            </div>
+                            <div class="title">
+                                <p class="prod-title8"></p>
+                            </div>
+                            <div class="prices">
+                                <p class="prod-price8"></p>
+                            </div>
+                            <div class="del">
+                                <button class="deleteOrder8     comot"><i class="fa-solid fa-trash" style="color:orangered"></i></button>
+                            </div>
+                    </div>
+                    <!-- cart row 8 ends here -->
+                    <div class="cartItem9   none">
+                            <div class="food-img9">
+                                <img src="" alt="" class="foods-img9" >
+                            </div>
+                            <div class="title">
+                                <p class="prod-title9"></p>
+                            </div>
+                            <div class="prices">
+                                <p class="prod-price9"></p>
+                            </div>
+                            <div class="del">
+                                <button class="deleteOrder9     comot"><i class="fa-solid fa-trash" style="color:orangered"></i></button>
+                            </div>
+                    </div>
+                    <!-- cart row 9 ends here -->
+                    <div class="footer-cart">
+                        <h3>Total</h3>
+                        <h2 id="total" ></h2>
+                    </div>
+                    <div class="total-clear">
+                        <button class="clears">Clear Total</button>
+                    </div>
+                </div>      
+        </div>
+    </section>
+    
+    <div class="open-carts ">
+        <button class="Go-to">Go to Cart</button>
+    </div>
+    <div class="back-to-order">
+        <button class="Go-back   block">Go back</button>
+    </div>
+
+    <section>
+        <footer>
+            <p>Copyright © 2023 Kaycee Webdev works All rights reserved.Terms of Use |   <a href="#">   Site map</a>  <span id="left">Nigeria</span> </p>
+        </footer>
+    </section>
+</div>
+    <script src="theChow.js"></script>
+</body>
+</html>
+
+
+
+ <!-- <div class="login-menus"> 
+        <div class="mine none">
+            <form>
+                <label for="">Email</label>  <input type="text">
+                <br>
+                <br>
+                <label for="">Password</label> <input type="text">
+            </form>
+        </div>
+        <button class="btnOne">submit</button>
+    </div> -->

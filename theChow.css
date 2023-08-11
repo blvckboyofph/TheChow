@@ -1,0 +1,801 @@
+:root {
+    --p-col: orangered;
+    --s-col: rgb(0, 0, 0);
+    --t-col: rgb(207, 177, 8);
+}
+
+* {
+    box-sizing: border-box;
+}
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.none {
+    display: none;
+}
+.mobile {
+    display: none;
+}
+.mobiles {
+    display: block;
+}
+.block {
+    display: block;
+}
+.credentials {
+    margin-left: 28%;
+}
+.credentials label {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+}  
+.navbar-for-laptop {
+    display: flex;
+    /* border: 1px solid black; */
+    margin-top: 3px;
+}
+.brand-name  {
+    margin-left: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.brand-name p {
+    color: white;
+}
+.brand-name span {
+    color: var(--p-col);
+}
+
+.home-side {
+    display: flex;
+    border-radius: 15px 15px 15px 15px;
+    height:30px;
+    /* background-color: rgb(243, 233, 233); */
+    border: 1px solid black;
+    width: 15%;
+    margin-left: 33%;
+    margin-top: 17px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: var(--s-col);
+   
+}
+.home-side a {
+    /* border: 1px solid black; */
+    margin-left:34px;
+    text-decoration:none;
+    font-size: 0.8em;
+    color: black;
+    font-weight:600;
+    padding-top: 7px;
+    color: var(--p-col);
+}
+.home-side a:hover {
+    color: var(--t-col);
+}
+.user-account {
+    display: flex;
+    /* border: 1px solid black; */
+    margin-left:7%;
+    padding-top:5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  
+}
+.user-account p {
+    padding-left: 30px;
+}
+.count-section {
+    /* border: 1px solid black; */
+    margin-left: 4px;
+    margin-top: -5px;
+    width: 15px;
+    height: 40px;
+} 
+.count-section h5 {
+    border: 1px solid black;
+    border-radius: 3px 3px 3px 3px;
+    color: var(--p-col);
+    background-color: var(--s-col);
+    margin-top: 15px;
+    padding-left: 3px;
+}
+.out {
+    display: none;
+}
+.in {
+    display: block;
+}
+.modes {
+    display: flex;
+    /* border: 1px solid black; */
+    margin-left: 2%;
+    padding-top: 5px;
+}
+.md p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.bb {
+    margin-left: 10px;
+    padding-top: 10px;
+}
+.moveBtn {
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: -63px;
+    background-color: var(--p-col) ;
+    cursor: pointer;
+}  
+.movedBtn {
+    padding: 10px;
+    border-radius: 50%;
+    margin-left: -23px;
+    background-color: var(--p-col);
+    cursor: pointer;  
+}
+.background-mode {
+    padding: 10px 50px 10px 10px;
+    border-radius: 20px;
+    background-color: white;
+}
+.darkmode {
+    background-color: black;
+    color: white;
+}
+.cartmode{
+    background-color: black;
+    color: black;
+}
+.stars {
+    color: var(--p-col);
+}
+.credentials p {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+}
+#signs {
+    color: black;
+}
+#signs:hover {
+    cursor: pointer;
+    color: var(--p-col);
+    background-color: var(--s-col);
+}
+#sign {
+    text-align: center;
+    color: orangered;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+.user-login h1 {
+    color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.user-login span {
+    color: var(--p-col);
+}
+.agent-login {
+    border: 2px solid black;
+    width: 30%;
+    margin-left: 35%;
+    border-radius: 15px 15px 15px 15px;
+    padding: 20px;
+}
+.agent-login h2 {
+    text-align: center;
+    color: var(--s-col);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.agent-login h3 {
+    text-align: center;
+    color: orangered;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+}
+input[type=email] {
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 8px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: black;
+    width: 70%;
+    border-radius: 7px 7px 7px 7px;
+}
+
+input[type=password] {
+    display: block;
+    margin-top: 3px;
+    margin-bottom: 2px;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-color: black;
+    width: 70%;
+    border-radius: 7px 7px 7px 7px;
+}
+.signInBtn {
+    margin-left: 38%;
+    width: 25%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight:bold ;
+    background-color: var(--p-col);
+    border-radius: 5px 5px 5px 5px; 
+}
+.signInBtn:hover {
+    background-color: var(--s-col);
+    color: var(--p-col);
+    cursor: pointer;
+}
+.showPass {
+    margin-bottom: 18px;
+    display: block;
+    border-color: black;
+    border-radius: 3px 3px 3px 3px ;
+}
+.hero-banner {
+    display: flex;
+    /* border: 1px solid black; */
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 40px;
+
+}
+.hero-banner-div2 {
+    padding-left: 60px;
+   
+}
+.big-img {
+    width: 500px;
+    display: flex;
+    overflow: hidden;
+}
+.big-img img {
+    max-width: 700px;
+    animation-name: slides;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slides {
+    0% {
+     transform: translateX(0px);
+    }
+ 
+    15% {
+     transform: translateX(0px);
+    }
+ 
+    25% {
+     transform: translateX(-508px);
+    }
+ 
+    35% {
+     transform: translateX(-508px)
+    }
+ 
+    45% {
+     transform: translateX(-1008px);
+    }
+ 
+    55% {
+     transform: translateX(-1008px);
+    }
+ 
+    65% {
+     transform: translateX(-1508px);
+    }
+    
+    75% {
+     transform: translateX(-1508px);
+    }
+ 
+    85% {
+     transform: translateX((-2008px))
+    }
+
+    95% {
+        transform: translateX(-2008px);
+    }
+
+    98% {
+        transform: translateX(-2008px);
+    }
+
+    100% {
+        transform: translateX(0px);
+    }
+ }
+
+
+
+.text-1 {
+    /* border: 1px solid black; */
+    margin-top: 60px;
+    height: 50px;
+    width: 30%;
+    padding-top: 5px;
+}
+.text-1 p {
+    font-size: 1.6em;
+    font-weight:600;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-2 p {
+    font-size: 2.2em;
+    font-weight:bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.text-2 span {
+    color: var(--p-col);
+}
+.text-3 {
+    /* border: 1px solid black; */
+    width: 75%;
+}
+.text-3 p {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+#food-section {
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 50px;
+    /* border: 1px solid black; */
+    padding-left: 180px;
+    padding-top: 30px;
+}
+.food-div {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    /* border: 1px solid black; */
+}
+.what {
+    text-align: center;
+    margin-top: 45px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.what span {
+    color: var(--p-col);
+}
+.name-div {
+    /* border: 1px solid black; */
+    width: 40%;
+    /* padding-left: 30px; */
+    margin-left: 6%;
+    text-align: center;
+}
+.product-name {
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.price-div {
+    /* border: 1px solid black; */
+    width: 20%;
+    margin-top: -10px;
+    margin-left: 16%;
+    text-align: center;
+}
+.price-div p {
+    color:rgb(99, 96, 88)
+}
+.combine {
+    display: flex; 
+    /* border: 1px solid black; */
+    width: 70%;      
+    margin-bottom: 30px;
+}           
+.cart-section {
+    margin-left: 6px;
+}    
+.cart-section button {
+    border-radius: 5px;
+    background-color: black;
+    color:var(--p-col);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
+.cart-section button:hover {
+    background-color: var(--p-col);
+    color: var(--s-col);
+    cursor: pointer;
+}
+.see-more {
+    margin-left: 6px;
+}
+.see-more button {
+    border-radius: 5px;
+    background-color: black;
+    color:var(--p-col);
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} 
+.see-more button:hover {
+    background-color: var(--p-col);
+    color: var(--s-col);
+    cursor: pointer;
+}
+
+.add-to-cart {
+    display: flex;
+    width: 70%;
+    margin-bottom: 30px;
+}
+#foods{
+    width: 60%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+}
+.add-to-cartbar {
+    width: 40%;
+    border-radius: 5px;
+    background-color: #eee;
+    margin-left: 20px;
+    padding: 15px;
+    text-align: center;
+}
+.head {
+    background-color: var(--p-col);
+    border-radius: 3px;
+    height: 40px;
+    padding: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+.footer-cart {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px 0px;
+    padding: 10px 0px;
+    border-top: 1px solid #333;
+}
+.box {
+    display: flex;
+}
+/* 
+#foods {
+    display: flex ;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1px;
+    background-color: white;
+    border: 1px solid #aaa;
+    border-radius: 3px;
+    margin: 1px 10px;
+} */
+.food-img {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* border: 1px solid var(--p-col); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-img1 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* border: 1px solid var(--p-col); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-img3 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* border: 1px solid var(--p-col); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-img4 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* border: 1px solid var(--p-col); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-img5 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* border: 1px solid var(--p-col); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-img6 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* border: 1px solid var(--p-col); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-img7 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* border: 1px solid var(--p-col); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-img8 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* border: 1px solid var(--p-col); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.food-img9 {
+    width: 50px;
+    height: 50px;
+    border-radius: 100px;
+    /* border: 1px solid var(--p-col); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.foods-img {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 30%;
+}
+.foods-img2 {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 30%;
+}
+.foods-img3 {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 30%;
+}
+.foods-img4 {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 30%;
+}
+.foods-img5 {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 30%;
+}
+.foods-img6 {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 30%;
+}
+.foods-img7 {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 30%;
+}
+.foods-img8 {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 30%;
+}
+.foods-img9 {
+    max-width: 43px;
+    max-height: 43px;
+    border-radius: 30%;
+}
+
+
+
+.cartItem {
+    display: flex;
+    justify-content: space-between;
+    font-family:Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+    font-weight: 600;
+} 
+.cartItem2 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+    font-weight: 600;
+}
+.cartItem3 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+    font-weight: 600;
+}
+.cartItem4 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+    font-weight: 600;
+}
+.cartItem5 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+    font-weight: 600;
+}
+.cartItem6 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+    font-weight: 600;
+}
+.cartItem7 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+    font-weight: 600;
+}
+.cartItem8 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+    font-weight: 600;
+}
+.cartItem9 {
+    display: flex;
+    justify-content: space-between;
+    font-family: Cambria, Cochin, 'Georgia', Times, Times New Roman, serif;
+    font-weight: 600;
+}
+
+
+
+#total {
+    font-size: 1.4em;
+}
+.comot {
+    display: none;
+}
+.dey {
+    display: block; 
+    margin-top: 13px;
+}
+.emptycart {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 600;
+}
+.clears {
+    margin-left: 300px;
+    border-radius : 10px ;
+    border-color: black;
+    background-color: var(--p-col);
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+} 
+.clears:hover {
+    background-color: var(--s-col);
+    color: var(--p-col);
+    cursor: pointer;
+}
+.total-clear {
+    margin-top: -40px;
+}
+
+
+.deleteOrder {
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.deleteOrder2 {
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.deleteOrder3 {
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.deleteOrder4 {
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.deleteOrder5 {
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.deleteOrder6 {
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.deleteOrder7 {
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.deleteOrder8 {
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+.deleteOrder9 {
+    background-color: black;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+
+ .cart-sections {
+    display: none;
+    margin-left: -17%;
+    transition: ease-in;
+} 
+.Go-to {
+    margin-left: 48%;
+    border-radius : 7px ;
+    border-color: black;
+    background-color: var(--p-col);
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 1.3em;
+} 
+.Go-to:hover {
+    background-color: var(--s-col);
+    color: var(--p-col);
+    cursor: pointer;
+}
+.Go-back {
+    margin-left: 49%;
+    border-radius : 7px ;
+    border-color: black;
+    background-color: var(--p-col);
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 1.3em;
+    display: none;
+}
+.Go-in {
+    margin-left: 49%;
+    border-radius : 7px ;
+    border-color: black;
+    background-color: var(--p-col);
+    font-family:Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    margin-top: 50px;
+    font-size: 1.3em;
+}
+.Go-in:hover {
+    background-color: var(--s-col);
+    color: var(--p-col);
+    cursor: pointer;
+}
+.jjp {
+    display: none
+}
+.blocks {
+    margin-left: -16%;
+}
+footer {
+    color: #423f3f;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0.8em;
+    margin-top: 60px;
+    width: 71%;
+    margin-left: 15%;
+    border-top: 1px solid var(--s-col)
+} 
+#left {
+    float: right;
+}
+footer a {
+    color: var(--p-col);
+    text-decoration: none;
+}
